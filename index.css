@@ -30,6 +30,10 @@ body{
     background-color: rgb(159, 62, 159);
 }
 
+a{
+    text-decoration: none;
+}
+
 #right{
     color: white;
     padding: 20px;
