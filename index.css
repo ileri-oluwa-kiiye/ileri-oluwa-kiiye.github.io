@@ -91,13 +91,15 @@ a{
 
 @media screen and (max-width:900px) {
     #allcontent{
-        padding: 10% 27%;
+        padding:10% 10%;
         align-items: center;
     }
 
     .box{
         width: 200px;
-        height: 350px;
+        height: 330px;
+        margin-left: auto;
+        margin-right: auto;
         padding: 50px 50px;
         margin-bottom: 20px;
         box-shadow: 3px 3px 10px 5px rgb(49, 4, 59);
