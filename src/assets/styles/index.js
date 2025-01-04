@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const HeroContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px 4rem;
+  padding: 20px 4rem;
 
   @media (max-width: 768px) {
     padding: 50px 2rem;
@@ -535,6 +535,115 @@ export const ProjectsSection = styled.section`
 
     .project-card {
       margin-bottom: 1rem;
+    }
+  }
+`;
+
+export const Footer = styled.footer`
+  max-width: 1200px;
+  margin: 4rem auto 2rem;
+  padding: 2rem;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  border-top: 1px solid #eaeaea;  // Subtle light gray border
+  
+  p {
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    margin: 3rem auto 1.5rem;
+    padding: 1rem;
+  }
+`;
+
+export const NavBar = styled.header`
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: ${props => props.isScrolled ? 'rgba(255, 255, 255, 0.98)' : 'transparent'};
+  transition: all 0.3s ease;
+  backdrop-filter: ${props => props.isScrolled ? 'blur(10px)' : 'none'};
+  border-bottom: ${props => props.isScrolled ? '1px solid #eaeaea' : 'none'};
+
+  .nav-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+
+    img{
+        width: 30px;
+        height: 30px;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+    a {
+      color: #666;
+      text-decoration: none;
+      font-size: 0.95rem;
+      position: relative;
+      padding: 0.5rem 0;
+      transition: color 0.2s ease;
+
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: #333;
+        transition: width 0.2s ease;
+      }
+
+      &:hover {
+        color: #333;
+
+        &:after {
+          width: 100%;
+        }
+      }
+
+      &.active {
+        color: #333;
+        
+        &:after {
+          width: 100%;
+          background: #333;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .nav-content {
+      padding: 1rem;
+    }
+
+    .nav-links {
+      gap: 1.5rem;
+      
+      a {
+        font-size: 0.9rem;
+      }
     }
   }
 `;

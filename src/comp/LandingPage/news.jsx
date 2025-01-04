@@ -38,7 +38,7 @@ const newsItems = [
 
 const News = () => {
   return (
-    <NewsSection>
+    <NewsSection id="news">
       <h1>News</h1>
       {newsItems.map((item) => (
         <div key={item.id} className="timeline-item">

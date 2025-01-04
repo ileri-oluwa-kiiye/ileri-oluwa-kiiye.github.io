@@ -3,7 +3,7 @@ import profile from "../../assets/img/prof_pic.png"
 
 const Hero = () => {
   return (
-    <HeroContainer>
+    <HeroContainer id="hero">
       <h1>Ilerioluwakiiye Abolade</h1>
       <div className="hero-content">
         <div className="hero-text">

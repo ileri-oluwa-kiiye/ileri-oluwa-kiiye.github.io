@@ -32,7 +32,7 @@ const Projects = () => {
     : projectsData.filter(project => project.category === activeFilter);
 
   return (
-    <ProjectsSection>
+    <ProjectsSection id="projects">
       <h1>Featured Projects</h1>
       
       <div className="filters">
