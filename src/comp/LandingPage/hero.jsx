@@ -1,5 +1,4 @@
 import { HeroContainer } from "../../assets/styles"
-import cv from "../../assets/cv.pdf"
 import profile from "../../assets/img/prof_pic2.jpeg"
 
 const Hero = () => {
@@ -10,7 +9,7 @@ const Hero = () => {
         <div className="hero-text">
           <div className="social-links">
             <a href="mailto:aboladeilerioluwakiiye@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
-            <a href={cv} target="_blank" rel="noopener noreferrer">CV</a>
+            <a href='https://drive.google.com/file/d/1zW9LWumWUOqmKD1cp9dvYCANzHSfmh_2/view?usp=sharing' target="_blank" rel="noopener noreferrer">CV</a>
             <a href="https://github.com/ileri-oluwa-kiiye" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="www.linkedin.com/in/ilerioluwakiiye" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://twitter.com/llerioluwakiiye" target="_blank" rel="noopener noreferrer">Twitter</a>
