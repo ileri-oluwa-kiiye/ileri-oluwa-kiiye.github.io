@@ -59,6 +59,7 @@ export const HeroContainer = styled.div`
       width: 100%;
       height: auto;
       border-radius: 8px;
+      object-fit: cover;
     }
   }
   .social-links {
