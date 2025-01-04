@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
   max-width: 1200px;
+  font-family: 'Cambria', 'Georgia', serif;
   margin: 0 auto;
   padding: 50px 4rem;
 
@@ -13,7 +14,6 @@ export const HeroContainer = styled.div`
     font-size: 2.5rem;
     font-weight: 400;
     margin-bottom: 2rem;
-    font-family: 'Roboto', sans-serif;
   }
 
   .hero-content {
@@ -43,11 +43,11 @@ export const HeroContainer = styled.div`
   }
 
   .hero-image {
-    flex: 0 0 270px;
+    flex: 0 0 250px;
     max-height: fit-content;
 
     img{
-        max-height: 300px;
+        max-height: 270px;
     }
     
     @media (max-width: 768px) {
@@ -59,9 +59,23 @@ export const HeroContainer = styled.div`
       width: 100%;
       height: auto;
       border-radius: 8px;
-      object-fit: cover;
     }
   }
+  .social-links {
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  
+  a {
+    color: #333; // Adjust color to match your theme
+    text-decoration: none;
+    font-weight: 500;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
 `;
 
 export const NewsSection = styled.section`
@@ -84,14 +98,11 @@ export const NewsSection = styled.section`
     border-radius: 12px;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02);
     border: 1px solid #f0f0f0;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 
-    &:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    }
+    
 
     h2 {
       color: #333;
@@ -209,15 +220,11 @@ export const ExperienceSection = styled.section`
     border-radius: 12px;
     padding: 1.5rem;
     border: 1px solid #f0f0f0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02);
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
 
-    &:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    }
 
     .role {
       font-size: 1.1rem;

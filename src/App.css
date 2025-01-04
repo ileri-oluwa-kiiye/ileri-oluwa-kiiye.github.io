@@ -1,14 +1,18 @@
 * {
   margin: 0;
+  font-family: 'DM Sans', sans-serif;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Cambria', 'Georgia', serif;
 }
 
+body {
+  font-family: 'Cambria', 'Georgia', serif;
+}
 
 :root {
   /* Add your color variables here */
-  --primary-color: #002351;
+  --primary-color: #2a4465;
   --secondary-color: #0054C2;
   /* --danger-color: #dc3545;
   --light-color: #f8f9fa;
