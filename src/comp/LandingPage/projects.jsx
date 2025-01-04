@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import { ProjectsSection } from '../../assets/styles';
+import image from "../../assets/img/ml_project.jpeg"
 
 const projectsData = [
   {
     title: "AI Image Generator",
     category: "Machine Learning",
-    thumbnail: "/path/to/thumbnail.jpg", // Add your image path
+    thumbnail: image, // Add your image path
     tags: ["React", "Python", "TensorFlow"],
     description: "A state-of-the-art image generation model using deep learning.",
     highlights: [
@@ -15,7 +16,7 @@ const projectsData = [
     ],
     links: {
       github: "https://github.com/username/project",
-      live: "https://project-demo.com",
+    //   live: "https://project-demo.com",
       article: "https://medium.com/article"
     }
   },

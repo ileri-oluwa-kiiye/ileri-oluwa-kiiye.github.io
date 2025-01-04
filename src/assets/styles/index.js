@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const HeroContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 4rem;
+  padding: 50px 4rem;
 
   @media (max-width: 768px) {
-    padding: 50px 2rem;
+    padding: 20px 2rem;
   }
 
   h1 {
@@ -45,6 +45,10 @@ export const HeroContainer = styled.div`
   .hero-image {
     flex: 0 0 270px;
     max-height: fit-content;
+
+    img{
+        max-height: 300px;
+    }
     
     @media (max-width: 768px) {
       flex: 0 0 auto;
@@ -347,7 +351,11 @@ export const ExperienceSection = styled.section`
 export const ProjectsSection = styled.section`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 4rem;
+
+  @media (max-width: 768px) {
+    padding: 4rem;
+  }
 
   h1 {
     font-size: 2.5rem;
@@ -540,8 +548,7 @@ export const ProjectsSection = styled.section`
 `;
 
 export const Footer = styled.footer`
-  max-width: 1200px;
-  margin: 4rem auto 2rem;
+  max-width: none;
   padding: 2rem;
   text-align: center;
   color: #666;
@@ -566,15 +573,21 @@ export const NavBar = styled.header`
   background: ${props => props.isScrolled ? 'rgba(255, 255, 255, 0.98)' : 'transparent'};
   transition: all 0.3s ease;
   backdrop-filter: ${props => props.isScrolled ? 'blur(10px)' : 'none'};
-  border-bottom: ${props => props.isScrolled ? '1px solid #eaeaea' : 'none'};
+  border-bottom: 1px solid #eaeaea;
 
   .nav-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1.5rem 2rem;
+    padding: 1.2rem 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  @media (max-width: 768px) {
+    .nav-content {
+      padding: 1.2rem 2rem;
+    }
   }
 
   .logo {

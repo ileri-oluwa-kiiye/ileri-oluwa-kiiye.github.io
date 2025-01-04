@@ -59,26 +59,7 @@ const Nav = () => {
           >
             Home
           </a>
-          <a
-            href="#projects"
-            className={activeSection === 'projects' ? 'active' : ''}
-            onClick={(e) => {
-              e.preventDefault();
-              scrollToSection('projects');
-            }}
-          >
-            Projects
-          </a>
-          <a
-            href="#experience"
-            className={activeSection === 'experience' ? 'active' : ''}
-            onClick={(e) => {
-              e.preventDefault();
-              scrollToSection('experience');
-            }}
-          >
-            Experience
-          </a>
+
           <a
             href="#news"
             className={activeSection === 'news' ? 'active' : ''}
@@ -89,6 +70,30 @@ const Nav = () => {
           >
             News
           </a>
+
+          <a
+            href="#experience"
+            className={activeSection === 'experience' ? 'active' : ''}
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection('experience');
+            }}
+          >
+            Experience
+          </a>
+
+          <a
+            href="#projects"
+            className={activeSection === 'projects' ? 'active' : ''}
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection('projects');
+            }}
+          >
+            Projects
+          </a>
+          
+          
         </nav>
       </div>
     </NavBar>
