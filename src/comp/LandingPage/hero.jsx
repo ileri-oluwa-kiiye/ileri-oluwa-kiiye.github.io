@@ -12,7 +12,7 @@ const Hero = () => {
             <a href="mailto:aboladeilerioluwakiiye@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
             <a href={cv} target="_blank" rel="noopener noreferrer">CV</a>
             <a href="https://github.com/ileri-oluwa-kiiye" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://linkedin.com/in/ilerioluwakiiyes" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="www.linkedin.com/in/ilerioluwakiiye" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://twitter.com/llerioluwakiiye" target="_blank" rel="noopener noreferrer">Twitter</a>
           </div>
           
