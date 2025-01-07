@@ -1,6 +1,6 @@
 import { NavBar } from '../../assets/styles';
 import { useState, useEffect } from 'react';
-import logo from "../../assets/img/favicon.svg"
+// import logo from "../../assets/img/favicon.svg"
 
 const Nav = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -45,7 +45,7 @@ const Nav = () => {
           e.preventDefault();
           scrollToSection('hero');
         }}>
-          <img src={logo} alt="Logo" />
+          {/* <img src={logo} alt="Logo" /> */}
         </a>
 
         <nav className="nav-links">
