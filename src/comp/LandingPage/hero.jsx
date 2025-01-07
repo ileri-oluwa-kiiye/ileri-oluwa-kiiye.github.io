@@ -16,8 +16,8 @@ const Hero = () => {
           </div>
           
           <p>
-            I am currently working on a series that explores the chronological evolution of AI 
-            algorithms and concurrently building a framework for large model evaluation. My 
+            I am currently working on a series that expl ores the chronological evolution of AI 
+            algo rithms and concurrently building a framework for large model evaluation. My 
             research interests focus on model interpretability and evaluation, with a particular goal 
             of understanding how models learn, store, and represent concepts.
           </p>

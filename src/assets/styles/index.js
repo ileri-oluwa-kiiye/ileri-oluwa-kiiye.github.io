@@ -71,6 +71,10 @@ export const HeroContainer = styled.div`
     color: #333; // Adjust color to match your theme
     text-decoration: none;
     font-weight: 500;
+
+    @media (max-width: 768px) {
+        font-size: 0.95rem;
+      }
     
     &:hover {
       text-decoration: underline;
