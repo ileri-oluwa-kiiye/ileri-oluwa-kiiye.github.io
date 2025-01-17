@@ -16,17 +16,18 @@ const Hero = () => {
           </div>
           
           <p>
-             My research interests include explainable AI, predictive analysis, and 
-             medical imaging in resource-constrained settings. I am currently 
-             developing AI-based diagnostic tools to improve accessibility and trust 
-             in healthcare technologies while collaborating on projects like
-             Maternify, a platform addressing maternal and infant mortality.
+             My research interests 
+             focus on how machine learning can improve healthcare, 
+             particularly in areas like explainable AI, medical imaging, 
+             and predictive analysis in low-resource settings. I&lsquo;m passionate 
+             about building tools that enhance trust in diagnostic technologies
+              and make healthcare more accessible to underserved communities.
           </p>
           <p>
-            I was previously a research assistant at KAUST where I worked on concept based 
-            interpretability research. Before that, I spent sometime at the University of Michigan 
-            working on hand and held-object segmentation. I graduated from Addis Ababa 
-            University with a Bachelor&lsquo;s degree in Software Engineering.
+          I am currently a Mechatronics Engineering undergraduate at the Federal 
+          University of Agriculture, Abeokuta.I&lsquo;m always eager to learn and grow, and I&lsquo;m 
+          currently looking for opportunities to collaborate on meaningful 
+          projects or join research internships where I can deepen my knowledge and contribute to solving real-world problems. 
           </p>
         </div>
         <div className="hero-image">

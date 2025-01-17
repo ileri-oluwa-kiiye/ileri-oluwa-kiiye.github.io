@@ -239,7 +239,7 @@ export const ExperienceSection = styled.section`
     }
 
     .company {
-      font-size: 1rem;
+      font-size: 0.8rem;
       color: #666;
       margin-bottom: 0.5rem;
       display: flex;
@@ -248,12 +248,12 @@ export const ExperienceSection = styled.section`
 
       &:before {
         content: '🏢';
-        font-size: 0.9rem;
+        font-size: 0.8rem;
       }
     }
 
     .duration {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       color: #888;
       margin-bottom: 1rem;
       display: flex;
@@ -289,7 +289,7 @@ export const ExperienceSection = styled.section`
     }
 
     .description {
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       color: #333;
       line-height: 1.6;
       margin-bottom: 1rem;
@@ -301,7 +301,7 @@ export const ExperienceSection = styled.section`
       margin: 0;
 
       li {
-        font-size: 0.95rem;
+        font-size: 0.85rem;
         color: #333;
         line-height: 1.6;
         padding-left: 1.2rem;

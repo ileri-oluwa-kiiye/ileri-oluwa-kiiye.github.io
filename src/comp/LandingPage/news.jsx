@@ -44,7 +44,7 @@ const newsItems = [
   {
     id: 6,
     title: "Travel Grant Recipient, DjangoCon US, 2024",
-    location: "Portland, Oregon, USA",
+    location: "Durham, USA",
     description:
       "Selected for an opportunity grant to participate in DjangoCon US 2024, a leading international conference focused on the Django web framework.",
   },
