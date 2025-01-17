@@ -6,14 +6,19 @@ export const HeroContainer = styled.div`
   margin: 0 auto;
   padding: 50px 4rem;
 
-  @media (max-width: 768px) {
-    padding: 20px 2rem;
-  }
+ 
 
   h1 {
     font-size: 2.5rem;
     font-weight: 400;
     margin-bottom: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px 1rem;
+    h1{
+      font-size: 2.2rem;
+    }
   }
 
   .hero-content {
