@@ -1,27 +1,64 @@
 import { useState } from 'react';
 import { ProjectsSection } from '../../assets/styles';
-import image from "../../assets/img/ml_project.jpeg"
+import image2 from "../../assets/img/project_2.jpeg"
+import image3 from "../../assets/img/project_3.jpeg"
+import image1 from "../../assets/img/project_1.png"
+
 
 const projectsData = [
-  {
-    title: "AI Image Generator",
-    category: "Machine Learning",
-    thumbnail: image, // Add your image path
-    tags: ["React", "Python", "TensorFlow"],
-    description: "A state-of-the-art image generation model using deep learning.",
-    highlights: [
-      "100K+ images generated",
-      "Featured on ProductHunt",
-      "Open-source contribution"
-    ],
-    links: {
-      github: "https://github.com/username/project",
-    //   live: "https://project-demo.com",
-      article: "https://medium.com/article"
+    {
+      title: "Maternify",
+      category: "Machine Learning",
+      thumbnail: image1, 
+      tags: ["NLP", "Python", 'Azure'],
+      description:
+        "A website with an ML-powered chatbot providing personalized prenatal care and maternal health information. Recognized as a top AI project by Microsoft Student Ambassadors for Q1 2024.",
+      highlights: [
+        "Improved healthcare access and reduced misinformation",
+        "Featured as a top AI project",
+        "Built with NLP techniques"
+      ],
+      links: {
+        github: "https://github.com/Teebarh/innovateHER", 
+        // article: "https://medium.com/maternify-article" 
+      }
+    },
+    {
+      title: "Petfinder Adoption Prediction Model",
+      category: "Machine Learning",
+      thumbnail: image2, 
+      tags: ["Python", "Scikit-learn", "Pandas"],
+      description:
+        "A machine learning model predicting pet adoption speed using data preprocessing, feature engineering, and model optimization.",
+      highlights: [
+        "Achieved high accuracy in adoption speed predictions",
+        "Improved insights for pet adoption agencies",
+        "Utilized advanced model optimization techniques"
+      ],
+      links: {
+        github: "https://github.com/ileri-oluwa-kiiye/pet", 
+        // article: "https://medium.com/petfinder-adoption-prediction" 
+      }
+    },
+    {
+      title: "Cassava Leaf Disease Classification",
+      category: "Machine Learning",
+      thumbnail: image3, 
+      tags: ["Python", "TensorFlow", "Keras"],
+      description:
+        "A machine learning model designed to classify cassava leaf diseases using transfer learning and data augmentation techniques.",
+      highlights: [
+        "Accurately classified multiple disease types",
+        "Leveraged transfer learning for improved performance",
+        "Enhanced agricultural disease detection"
+      ],
+      links: {
+        github: "https://colab.research.google.com/drive/1jktVsQ2DST64qhclTNNE8jNg-zeQf842?usp=sharing", 
+        // article: "https://medium.com/cassava-leaf-disease" 
+      }
     }
-  },
-  // Add more projects...
-];
+  ];
+
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');

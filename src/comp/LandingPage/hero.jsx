@@ -16,10 +16,11 @@ const Hero = () => {
           </div>
           
           <p>
-            I am currently working on a series that expl ores the chronological evolution of AI 
-            algo rithms and concurrently building a framework for large model evaluation. My 
-            research interests focus on model interpretability and evaluation, with a particular goal 
-            of understanding how models learn, store, and represent concepts.
+             My research interests include explainable AI, predictive analysis, and 
+             medical imaging in resource-constrained settings. I am currently 
+             developing AI-based diagnostic tools to improve accessibility and trust 
+             in healthcare technologies while collaborating on projects like
+             Maternify, a platform addressing maternal and infant mortality.
           </p>
           <p>
             I was previously a research assistant at KAUST where I worked on concept based 

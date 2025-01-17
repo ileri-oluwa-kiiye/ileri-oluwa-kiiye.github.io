@@ -1,40 +1,76 @@
 import { NewsSection } from "../../assets/styles";
 
-// News data array
 const newsItems = [
   {
     id: 1,
-    title: "PhysioNet Challenge, May - October 2024",
-    location: "Remote",
-    description: "Won the Data Science Africa 1st prize! Involving classification of ECG Images. Finished 6th out of 16! And published a peer-reviewed manuscript on",
-    link: {
-      text: "CinC conference",
-      url: "#"
-    }
+    title: "Deep Learning Indaba, 2024",
+    location: "Dakar, Senegal",
+    description:
+      "Presented a poster on Maternify, an ML-powered chatbot for prenatal care, at the largest Machine Learning conference in Africa.",
   },
   {
     id: 2,
-    title: "Deep Learning IndabaX, Aug 2024, Dedan Kimathi University of Technology",
-    location: "Inperson, Nyeri, Kenya",
-    description: "Won the Africa AI Research Award 2024!"
+    title: "DjangoCon US, 2024",
+    location: "Virtual",
+    description:
+      "Presented a talk on 'The Magic of Dependencies Installing Themselves,' highlighting the benefits of PEP 723 for simplifying Python script dependency management.",
   },
   {
     id: 3,
-    title: "Deep Learning + Reinforcement Learning Summer School, June 2024",
-    location: "Toronto, Canada",
-    description: "Awarded the CIFAR Inclusive AI Scholarship for the 2024 CIFAR Deep Learning + Reinforcement Learning Summer School. (Visa delayed, so I didn't make it)",
-    link: {
-      text: "CIFAR Inclusive AI Scholarship",
-      url: "#"
-    }
+    title: "AMTES, FUNAAB",
+    location: "Abeokuta, Nigeria",
+    description:
+      "Delivered an engaging talk on 'Balancing Academics and a Thriving Tech Career,' offering practical strategies for prioritization and time management.",
   },
   {
     id: 4,
-    title: "Data Science Africa, June 2024, Dedan Kimathi University of Technology",
-    location: "Inperson, Nyeri, Kenya",
-    description: "Part of the organising committee."
+    title: "Microsoft Ambassador’s AI Challenge (Top 5), 2024",
+    location: "Remote",
+    description:
+      "Maternify was recognized for its effective implementation of machine learning and chatbot functionalities, securing a top 5 position in the challenge.",
+    // link: {
+    //   text: "Read more about Maternify",
+    //   url: "https://example.com/microsoft-ai-challenge"
+    // }
+  },
+  {
+    id: 5,
+    title: "Travel Grant Recipient, PyCon US, 2024",
+    location: "Salt Lake City, Utah, USA",
+    description:
+      "Chosen for a financial aid grant to attend PyCon US 2024, the largest annual convention for the Python programming language.",
+
+  },
+  {
+    id: 6,
+    title: "Travel Grant Recipient, DjangoCon US, 2024",
+    location: "Portland, Oregon, USA",
+    description:
+      "Selected for an opportunity grant to participate in DjangoCon US 2024, a leading international conference focused on the Django web framework.",
+  },
+  {
+    id: 7,
+    title: "Travel Grant Recipient, Deep Learning Indaba, 2024",
+    location: "Dakar, Senegal",
+    description:
+      "Awarded a travel grant to attend Deep Learning Indaba 2024, a premier African ML and AI gathering.",
+  },
+  {
+    id: 8,
+    title: "Travel Grant Recipient, PyCon Africa 2024",
+    location: "Accra, Ghana",
+    description:
+      "Awarded a travel grant to attend PyCon Africa 2024, bringing together Python enthusiasts from over 30 African countries and beyond.",
+  },
+  {
+    id: 9,
+    title: "Azure Responsible AI Workshop Coach",
+    location: "Remote",
+    description:
+      "Earned the 'Microsoft Azure Responsible AI Workshop—Coach' badge for teaching participants hands-on lessons using machine learning models to produce less harmful and more trustworthy AI systems.",
   }
 ];
+
 
 const News = () => {
   return (
@@ -48,7 +84,7 @@ const News = () => {
             {item.link && (
               <a href={item.link.url}> {item.link.text}</a>
             )}
-            {item.id === 1 && "!"} {/* Special case for the first item */}
+            {item.id === 1 && ""} {/* Special case for the first item */}
           </p>
         </div>
       ))}
