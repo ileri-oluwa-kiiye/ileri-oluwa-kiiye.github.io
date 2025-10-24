@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
-  max-width: 1200px;
+  max-width: 1000px;
   font-family: 'Cambria', 'Georgia', serif;
   margin: 0 auto;
   padding: 50px 4rem;
@@ -89,114 +89,177 @@ export const HeroContainer = styled.div`
 `;
 
 export const NewsSection = styled.section`
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem 4rem;
 
   @media (max-width: 768px) {
-    padding: 4rem;
+    padding: 1rem;
   }
+
   h1 {
     font-size: 2.5rem;
     font-weight: 400;
     margin-bottom: 2rem;
     font-family: 'Roboto', sans-serif;
+    color: #000;
   }
 
-  .timeline-item {
-    background: #fff;
-    border-radius: 12px;
-    padding: 1.5rem;
+  .news-item {
     margin-bottom: 1.5rem;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02);
-    border: 1px solid #f0f0f0;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    line-height: 1.6;
 
-    
-
-    h2 {
-      color: #333;
-      font-size: 1.1rem;
-      margin-bottom: 0.5rem;
-      font-weight: 500;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-
-      &:before {
-        content: '📍';  // You can change this to '•' or '◆' or remove it
-        font-size: 0.8rem;
-        color: #666;
-      }
+    .date {
+      font-weight: bold;
+      color:rgb(204, 51, 0);
+      margin-right: 0.5rem;
     }
 
-    .location {
-      font-size: 0.9rem;
-      margin-bottom: 0.75rem;
-      color: #666;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-
-      strong {
-        font-weight: 500;
-        color: #333;
-      }
-
-      &:before {
-        content: '';  // You can change this to another icon or remove it
-        font-size: 0.9rem;
-      }
-    }
-
-    p {
-      margin-bottom: 1.5rem;
-      line-height: 1.6;
-      color: #333;
+    .description {
+      color: #000;
       font-size: 1rem;
 
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-
-    a {
-      color: #333;
-      text-decoration: none;
-      font-size: 0.9rem;
-      padding: 0.5rem 0;
-      display: inline-block;
-      position: relative;
-      
-      &:after {
-        content: '';
-        position: absolute;
-        bottom: 0.3rem;
-        left: 0;
-        width: 0;
-        height: 1px;
-        background: #333;
-        transition: width 0.2s ease;
-      }
-      
-      &:hover:after {
-        width: 100%;
+      a {
+        color:rgb(164, 42, 1);
+        text-decoration: underline;
+        
+        &:hover {
+          text-decoration: none;
+        }
       }
     }
   }
 
   @media (max-width: 768px) {
-    padding: 1rem;
+    h1 {
+      font-size: 2rem;
+    }
+  }
+`;
 
-    .timeline-item {
-      padding: 1rem;
-      
-      h2 {
-        font-size: 1rem;
+export const PapersSection = styled.section`
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+  }
+
+  .paper-item {
+    display: flex;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #f0f0f0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .paper-year {
+      font-weight: bold;
+      color: rgb(204, 51, 0);
+      font-size: 1rem;
+      min-width: 80px;
+      margin-right: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .paper-content {
+      flex: 1;
+
+      .paper-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 0.5rem;
+        line-height: 1.4;
       }
 
-      .location {
-        font-size: 0.85rem;
+      .paper-authors {
+        font-size: 0.95rem;
+        color: #666;
+        margin-bottom: 0.4rem;
+        font-style: italic;
+      }
+
+      .paper-venue {
+        font-size: 0.9rem;
+        color: #555;
+        margin-bottom: 0.4rem;
+        font-weight: 500;
+      }
+
+      .paper-status {
+        font-size: 0.9rem;
+        color: #666;
+        margin-bottom: 0.5rem;
+        font-style: italic;
+      }
+
+      .paper-links {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+
+        .paper-link {
+          color: rgb(164, 42, 1);
+          text-decoration: underline;
+          font-size: 0.9rem;
+          transition: color 0.2s ease;
+
+          &:hover {
+            color: rgb(204, 51, 0);
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    .paper-item {
+      flex-direction: column;
+      
+      .paper-year {
+        min-width: auto;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+      }
+
+      .paper-content {
+        .paper-title {
+          font-size: 1rem;
+        }
+
+        .paper-authors {
+          font-size: 0.9rem;
+        }
+
+        .paper-venue {
+          font-size: 0.85rem;
+        }
+
+        .paper-status {
+          font-size: 0.85rem;
+        }
+
+        .paper-links {
+          .paper-link {
+            font-size: 0.85rem;
+          }
+        }
       }
     }
   }
@@ -204,7 +267,7 @@ export const NewsSection = styled.section`
 
 
 export const ExperienceSection = styled.section`
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem 4rem;
 
@@ -366,7 +429,7 @@ export const ExperienceSection = styled.section`
 `;
 
 export const ProjectsSection = styled.section`
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem 4rem;
 
@@ -593,7 +656,7 @@ export const NavBar = styled.header`
   border-bottom: 1px solid #eaeaea;
 
   .nav-content {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 1.2rem 4rem;
     display: flex;

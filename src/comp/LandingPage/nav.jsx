@@ -11,7 +11,7 @@ const Nav = () => {
       setIsScrolled(window.scrollY > 20);
 
       // Get all sections
-      const sections = ['hero', 'news', 'experience', 'projects'];
+      const sections = ['hero', 'news', 'publications', 'blog'];
       
       // Find which section is currently in view
       for (const section of sections) {
@@ -72,25 +72,25 @@ const Nav = () => {
           </a>
 
           <a
-            href="#experience"
-            className={activeSection === 'experience' ? 'active' : ''}
+            href="#publications"
+            className={activeSection === 'publications' ? 'active' : ''}
             onClick={(e) => {
               e.preventDefault();
-              scrollToSection('experience');
+              scrollToSection('publications');
             }}
           >
-            Experience
+            Publications
           </a>
 
           <a
-            href="#projects"
-            className={activeSection === 'projects' ? 'active' : ''}
+            href="#blog"
+            className={activeSection === 'blog' ? 'active' : ''}
             onClick={(e) => {
               e.preventDefault();
-              scrollToSection('projects');
+              scrollToSection('blog');
             }}
           >
-            Projects
+            Blog
           </a>
           
           
