@@ -73,8 +73,8 @@ export const HeroContainer = styled.div`
   gap: 1.5rem;
   
   a {
-    color: #333; // Adjust color to match your theme
-    text-decoration: none;
+    color: rgb(164, 42, 1); // Adjust color to match your theme
+    text-decoration: underline;
     font-weight: 500;
 
     @media (max-width: 768px) {
@@ -259,6 +259,199 @@ export const PapersSection = styled.section`
           .paper-link {
             font-size: 0.85rem;
           }
+        }
+      }
+    }
+  }
+`;
+
+export const BlogSection = styled.section`
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+  min-height: 100vh;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
+
+  .blog-header {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      font-family: 'Roboto', sans-serif;
+      color: #000;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #666;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+
+  .blog-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #f0f0f0;
+
+    /* &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    } */
+
+    .blog-image {
+      position: relative;
+      height: 200px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      &:hover img {
+        transform: scale(1.05);
+      }
+
+      .blog-overlay {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+
+        .publication-badge {
+          background: rgba(175, 175, 175, 0.69);
+          color: white;
+          padding: 0.25rem 0.75rem;
+          border-radius: 20px;
+          font-size: 0.8rem;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .blog-content {
+      padding: 1.5rem;
+
+      .blog-meta {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        font-size: 0.85rem;
+        color: #666;
+
+        .blog-date {
+          color: rgb(204, 51, 0);
+          font-weight: 600;
+        }
+
+        .blog-read-time {
+          color: #999;
+        }
+      }
+
+      .blog-title {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 0.75rem;
+        line-height: 1.4;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      .blog-excerpt {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      .blog-links {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        flex-wrap: wrap;
+
+        .blog-link {
+          color: rgb(164, 42, 1);
+          text-decoration: none;
+          font-size: 0.9rem;
+          font-weight: 500;
+          padding: 0.5rem 1rem;
+          border: 1px solid rgb(164, 42, 1);
+          border-radius: 6px;
+          transition: all 0.2s ease;
+          display: inline-block;
+
+          &:hover {
+            background-color: rgb(164, 42, 1);
+            color: white;
+            transform: translateY(-1px);
+          }
+        }
+      }
+
+      .blog-author {
+        font-size: 0.9rem;
+        color: #999;
+        font-style: italic;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .blog-header {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .blog-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .blog-card {
+      .blog-content {
+        padding: 1rem;
+
+        .blog-title {
+          font-size: 1.1rem;
+        }
+
+        .blog-excerpt {
+          font-size: 0.9rem;
         }
       }
     }
