@@ -48,24 +48,36 @@ export const HeroContainer = styled.div`
   }
 
   .hero-image {
-    flex: 0 0 250px;
+    flex: 0 0 300px;
     max-height: fit-content;
 
     img{
-        max-height: 270px;
+        max-height: 300px;
+        width: 150px;
+
+        
+    }
+
+    img {
+      width: 240px;
+      height: 270px;
+      border-radius: 8px;
+      object-fit: cover;
     }
     
     @media (max-width: 768px) {
       flex: 0 0 auto;
       width: 100%;
-    }
 
-    img {
+      img {
       width: 100%;
       height: auto;
       border-radius: 8px;
       object-fit: cover;
     }
+    }
+
+    
   }
   .social-links {
   margin-bottom: 1.5rem;

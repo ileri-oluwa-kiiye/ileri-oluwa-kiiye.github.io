@@ -1,5 +1,5 @@
 import { HeroContainer } from "../../assets/styles"
-import profile from "../../assets/img/prof_pic4.jpeg"
+import profile from "../../assets/img/prof_pic3.jpeg"
 
 const Hero = () => {
   return (
