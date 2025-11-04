@@ -5,7 +5,7 @@ const FooterComponent = () => {
     <Footer>
       <p>
         © Copyright {new Date().getFullYear()} Ilerioluwakiiye Abolade. 
-        Last updated: October 2025.
+        Last updated: November 1, 2025.
       </p>
     </Footer>
   );

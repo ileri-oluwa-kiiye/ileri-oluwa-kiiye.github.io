@@ -10,13 +10,13 @@ const newsItems = [
   {
     id: 2,
     date: "Oct 2025",
-    description: "I was a member of Team Mamalens, and we were a finalist at the Data Science for Health Ideathon, organized in Collaboration with the Deep Learning Indaba. We also won the most fun project award!",
+    description: "I led Team Mamalens, and we were a finalist at the Data Science for Health Ideathon, organized in Collaboration with the Deep Learning Indaba. We also won the most fun project award!",
     // link: { text: "AMTES, FUNAAB", url: "https://example.com/amtes" }
   },
   {
     id: 2,
     date: "Oct 2025",
-    description: "I was invited as a guest speaker to speak on 'Making Impact Beyond School' at the Freshers Orientation of the Association of Mechatronics Engineering Students. I had so much fun giving this talk.",
+    description: "I was invited as a guest speaker to speak on 'Making Impact Beyond School' at the Freshers Orientation of the Association of Mechatronics Engineering Students. Thank you to the executives!",
     // link: { text: "AMTES, FUNAAB", url: "https://example.com/amtes" }
   },
   {
@@ -45,32 +45,31 @@ const newsItems = [
   },
   {
     id: 7,
+    date: "August 2025",
+    description: "Won a Best Poster Award at Deep Learning Indaba 2025 for 'Fairness-Aware Machine Learning for Social Bias Detection in Healthcare Research Datasets.' which I presented as a collaborator.",
+    // link: { text: "Deep Learning Indaba 2025", url: "https://example.com/indaba2025" }
+  },
+  {
+    id: 8,
     date: "June 2025",
     description: "My first paper 'SharpXR: Structure-Aware Denoising for Pediatric Chest X-Rays' was accepted at the MICCAI MIRASOL Workshop! I led this research as the lead for the ML Collective medical imaging focus group in Nigeria. Congratulations to the team!",
     // link: { text: "MIRASOL Workshop", url: "https://example.com/mirasol" }
   },
   {
-    id: 8,
-    date: "June 2025",
-    description: "Won a Best Poster Award at Deep Learning Indaba 2025 for 'Fairness-Aware Machine Learning for Social Bias Detection in Healthcare Research Datasets.' which I presented as a collaborator.",
-    // link: { text: "Deep Learning Indaba 2025", url: "https://example.com/indaba2025" }
+    id: 9,
+    date: "Mar 2025",
+    description: "Excited to have been selected for the MICCAI Society Mentorship Program and be paired with Dr. Qingjie Meng!",
   },
   // {
-  //   id: 9,
-  //   date: "May 2025",
-  //   description: "Delivered an invited talk at the Third IJCAI Symposium in Africa (Responsible AI: From Africa to the World) on 'Fairness-Aware Machine Learning for Social Bias Detection in Healthcare Research Datasets.'",
-  //   // link: { text: "IJCAI Symposium 2025", url: "https://example.com/ijcai-africa" }
+  //   id: 10,
+  //   date: "Feb 2025",
+  //   description: "Awarded a $2000 travel grant to attend PyCon US 2025, the largest annual convention for the Python programming language.",
+  //   // link: { text: "PyCon US 2025", url: "https://example.com/pyconus2025" }
   // },
-  {
-    id: 10,
-    date: "Feb 2025",
-    description: "Awarded a $2000 travel grant to attend PyCon US 2025, the largest annual convention for the Python programming language.",
-    // link: { text: "PyCon US 2025", url: "https://example.com/pyconus2025" }
-  },
   {
     id: 11,
     date: "Sept 2024",
-    description: "Presented a poster on Maternify, at Deep Learning Indaba 2024 in Dakar, Senegal. Awarded a full travel grant to attend.",
+    description: "Presented a poster on Maternify, at Deep Learning Indaba 2024 in Dakar, Senegal. Thank you to the DLI Committee for the full sponsorship.",
     // link: { text: "Deep Learning Indaba 2024", url: "https://example.com/indaba2024" }
   },
   {
@@ -88,13 +87,13 @@ const newsItems = [
   {
     id: 14,
     date: "June 2024",
-    description: "Earned the 'Microsoft Azure Responsible AI Workshop—Coach' badge for mentoring participants on building fair and trustworthy AI systems.",
+    description: "Earned the 'Microsoft Azure Responsible AI Workshop Coach' badge for mentoring participants on building fair and trustworthy AI systems.",
     // link: { text: "Microsoft Azure Responsible AI Workshop", url: "https://example.com/azure-ai-workshop" }
   },
   {
     id: 15,
     date: "May 2024",
-    description: "I built Maternify, an ML-powered prenatal care chatbot, with Toyibat Adele, Kelechi Chbundu and Muslimah Sarumi, and we ranked Top 5 in the Microsoft Ambassador’s AI Challenge, recognized for impactful ML and chatbot applications.",
+    description: "I built Maternify, an ML-powered prenatal care chatbot, with Toyibat Adele, Kelechi Chbundu and Muslimah Sarumi, and we ranked Top 5 in the Microsoft Ambassador’s AI Challenge.",
     // link: { text: "Microsoft Ambassador’s AI Challenge", url: "https://example.com/microsoft-ai-challenge" }
   },
   {
