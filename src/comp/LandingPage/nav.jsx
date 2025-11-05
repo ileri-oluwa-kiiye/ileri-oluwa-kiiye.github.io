@@ -65,18 +65,6 @@ const Nav = () => {
 
           <Link
             to="/"
-            className={location.pathname === '/' && activeSection === 'news' ? 'active' : ''}
-            onClick={() => {
-              if (location.pathname === '/') {
-                scrollToSection('news');
-              }
-            }}
-          >
-            News
-          </Link>
-
-          <Link
-            to="/"
             className={location.pathname === '/' && activeSection === 'publications' ? 'active' : ''}
             onClick={() => {
               if (location.pathname === '/') {
@@ -87,6 +75,20 @@ const Nav = () => {
             Publications
           </Link>
 
+
+          <Link
+            to="/"
+            className={location.pathname === '/' && activeSection === 'news' ? 'active' : ''}
+            onClick={() => {
+              if (location.pathname === '/') {
+                scrollToSection('news');
+              }
+            }}
+          >
+            News
+          </Link>
+
+          
           <Link
             to="/blog"
             className={location.pathname === '/blog' ? 'active' : ''}

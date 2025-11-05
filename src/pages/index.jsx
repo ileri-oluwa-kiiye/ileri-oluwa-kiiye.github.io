@@ -11,8 +11,8 @@ const LandingPage = () => {
     <>
       <Nav />
       <Hero />
-      <News />
       <Papers />
+      <News />
       {/* <Experience />
       <Projects /> */}
       <Footer />
