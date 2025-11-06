@@ -87,6 +87,24 @@ const newsItems = [
   },
   {
     id: 9,
+    date: "July 2025",
+    description: (
+      <>
+        Attended the <a href="https://summer.rise-miccai.org/" target="_blank" rel="noopener noreferrer">RISE-MICCAI Summer School 2025</a>, a one-week program on medical image computing and AI in healthcare.
+      </>
+    ),
+  },
+  {
+    id: 10,
+    date: "June 2025",
+    description: (
+      <>
+        Received a scholarship for the <a href="https://aimi.stanford.edu/aimi25/agenda" target="_blank" rel="noopener noreferrer">2025 Stanford AIMI Symposium</a>, which included complimentary virtual registration for the event held at Stanford University on June 3, 2025.
+      </>
+    ),
+  },
+  {
+    id: 11,
     date: "June 2025",
     description: (
       <>
@@ -96,7 +114,7 @@ const newsItems = [
     ),
   },
   {
-    id: 10,
+    id: 12,
     date: "Mar 2025",
     description: (
       <>
@@ -106,7 +124,7 @@ const newsItems = [
     ),
   },
   {
-    id: 11,
+    id: 13,
     date: "Sept 2024",
     description: (
       <>
@@ -116,7 +134,7 @@ const newsItems = [
     ),
   },
   {
-    id: 12,
+    id: 14,
     date: "Sept 2024",
     description: (
       <>
@@ -127,17 +145,17 @@ const newsItems = [
     ),
   },
   {
-    id: 13,
+    id: 15,
     date: "Sept 2024",
     description: (
       <>
         I will be at 
-        <a href="hhttps://africa.pycon.org/2024/" target="_blank" rel="noopener noreferrer"> PyCon Africa 2024</a> in Accra, Ghana! Thank you to the Python community for the full sponsorship.
+        <a href="https://africa.pycon.org/2024/" target="_blank" rel="noopener noreferrer"> PyCon Africa 2024</a> in Accra, Ghana! Thank you to the Python community for the full sponsorship.
       </>
     ),
   },
   {
-    id: 14,
+    id: 16,
     date: "June 2024",
     description: (
       <>
@@ -146,7 +164,7 @@ const newsItems = [
     ),
   },
   {
-    id: 15,
+    id: 17,
     date: "May 2024",
     description: (
       <>
@@ -155,17 +173,17 @@ const newsItems = [
     ),
   },
   {
-    id: 16,
+    id: 18,
     date: "Feb 2024",
     description: (
       <>
         Received a $2,000 grant to attend 
-        <a href="hhttps://us.pycon.org/2024/" target="_blank" rel="noopener noreferrer">PyCon US 2024</a>, the largest annual convention for the Python programming language.
+        <a href="https://us.pycon.org/2024/" target="_blank" rel="noopener noreferrer">PyCon US 2024</a>, the largest annual convention for the Python programming language.
       </>
     ),
   },
   {
-    id: 17,
+    id: 19,
     date: "Jan 2024",
     description: (
       <>
@@ -179,15 +197,19 @@ const newsItems = [
 const News = () => {
   return (
     <NewsSection id="news">
-      <h1>News</h1>
-      {newsItems.map((item, index) => (
-        <div key={`${item.date}-${index}`} className="news-item">
-          <span className="date font-semibold">{item.date}:</span>{" "}
-          <span className="description">
-            {item.description}
-          </span>
-        </div>
-      ))}
+      <h1 className="text-2xl font-semibold font-serif tracking-tight">News</h1>
+      <ul className="mt-4 space-y-3" role="list">
+        {newsItems.map((item, index) => (
+          <li key={`${item.date}-${index}`} className="news-item flex items-start gap-3">
+            <span className="date shrink-0 w-28 text-sm tracking-wide text-slate-600">
+              {item.date}:
+            </span>
+            <span className="description flex-1 leading-relaxed">
+              {item.description}
+            </span>
+          </li>
+        ))}
+      </ul>
     </NewsSection>
   );
 };
