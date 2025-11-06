@@ -1,26 +1,42 @@
 import { PapersSection } from "../../assets/styles";
 
 const papers = [
+
+  {
+    id: 2,
+    title: "Domain-Adaptive Transformer for Data-Efficient Glioma Segmentation in Sub-Saharan MRI",
+    authors: "Abolade, I., Udo, A., Ojo, A., Oyetunji, A., Ajigbotosho, H., Iorumbur, A., Raymond, C., & Adewole, M.",
+    venue: "ISBI, In review",
+    year: "2025",
+    links: [
+      {
+        text: "Preprint",
+        url: "https://papers.isbi.org" // placeholder since it's under review
+      }
+    ]
+  },
   {
     id: 1,
     title: "Addressing Domain Shift in Low-Resource Neuroimaging: Glioma Segmentation for Sub-Saharan MRI",
     authors: "Abolade, I.",
-    venue: "WiML @ NeurIPS, In review (ISBI)",
-    // status: "In review (ISBI)",
+    venue: "WiML @ NeurIPS",
     year: "2025",
     links: [
       {
         text: "OpenReview",
         url: "https://openreview.net/forum?id=4VzB93HogD"
+      },
+      {
+        text: "PDF",
+        url: "https://openreview.net/pdf?id=4VzB93HogD"
       }
     ]
   },
   {
-    id: 2,
+    id: 3,
     title: "SharpXR: Structure-Aware Denoising for Pediatric Chest X-Rays",
     authors: "Abolade, I., Idoko, E., Odelola, S., Omoigui, P., Adebanwo, A., Iorumbur, A., Anazodo, U., Crimi, A., & Confidence, R.",
     venue: "MIRASOL @ MICCAI, Best Paper Runner-up",
-    // status: "Best Paper Award Nominee. To appear in Springer Lecture Notes in Computer Science (LNCS)",
     year: "2025",
     links: [
       {

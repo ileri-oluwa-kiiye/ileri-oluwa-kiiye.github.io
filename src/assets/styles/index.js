@@ -40,6 +40,19 @@ export const HeroContainer = styled.div`
       line-height: 1.6;
       color: #333;
       font-size: 1rem;
+      text-align: justify;
+
+      a {
+        color: rgb(164, 42, 1);
+        text-decoration: underline;
+        font-weight: 500;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: rgb(204, 51, 0);
+          text-decoration: underline;
+        }
+      }
 
       &:last-child {
         margin-bottom: 0;
