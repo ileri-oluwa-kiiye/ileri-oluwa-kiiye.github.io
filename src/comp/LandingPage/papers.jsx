@@ -9,10 +9,10 @@ const papers = [
     venue: "ISBI, In review",
     year: "2025",
     links: [
-      {
-        text: "Preprint",
-        url: "https://papers.isbi.org" // placeholder since it's under review
-      }
+      // {
+      //   text: "Preprint",
+      //   url: "https://papers.isbi.org" // placeholder since it's under review
+      // }
     ]
   },
   {
