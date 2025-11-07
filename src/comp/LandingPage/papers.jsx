@@ -25,10 +25,6 @@ const papers = [
       {
         text: "OpenReview",
         url: "https://openreview.net/forum?id=4VzB93HogD"
-      },
-      {
-        text: "PDF",
-        url: "https://openreview.net/pdf?id=4VzB93HogD"
       }
     ]
   },

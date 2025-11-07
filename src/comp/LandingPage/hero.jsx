@@ -21,7 +21,7 @@ const Hero = () => {
             <a href="https://mlcollective.org" target="_blank" rel="noopener noreferrer"> ML Collective</a>, 
             an open science community for self-driven AI researchers. 
             I was also recently a Research Fellow at 
-            <a href="https://event.fourwaves.com/spark/pages" target="_blank" rel="noopener noreferrer"> SPARK</a>, 
+            <a href="https://event.fourwaves.com/spark/pages" target="_blank" rel="noopener noreferrer"> SPARK Academy</a>, 
              supervised by 
              <a href="https://www.med.upenn.edu/globalhealth/maruf-adewole-phd.html" target="_blank" rel="noopener noreferrer"> Dr. Maruf Adewole </a> 
              and 
