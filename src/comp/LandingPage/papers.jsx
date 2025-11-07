@@ -32,7 +32,7 @@ const papers = [
     id: 3,
     title: "SharpXR: Structure-Aware Denoising for Pediatric Chest X-Rays",
     authors: "Abolade, I., Idoko, E., Odelola, S., Omoigui, P., Adebanwo, A., Iorumbur, A., Anazodo, U., Crimi, A., & Confidence, R.",
-    venue: "MIRASOL @ MICCAI, Best Paper Runner-up",
+    venue: "MIRASOL @ MICCAI, Best Paper Runner-up (Springer LNCS)",
     year: "2025",
     links: [
       {
@@ -44,6 +44,27 @@ const papers = [
 ];
 
 const Papers = () => {
+  const renderAuthorsWithBoldName = (authors) => {
+    const nameToBold = "Abolade, I.";
+    const parts = authors.split(nameToBold);
+    
+    if (parts.length === 1) {
+      // Name not found, return as is
+      return authors;
+    }
+    
+    const result = [];
+    for (let i = 0; i < parts.length; i++) {
+      if (parts[i]) {
+        result.push(parts[i]);
+      }
+      if (i < parts.length - 1) {
+        result.push(<strong key={i}>{nameToBold}</strong>);
+      }
+    }
+    return result;
+  };
+
   return (
     <PapersSection id="publications">
       <h1>Publications</h1>
@@ -52,7 +73,7 @@ const Papers = () => {
           <div className="paper-year">{paper.year}</div>
           <div className="paper-content">
             <h3 className="paper-title">{paper.title}</h3>
-            <p className="paper-authors">{paper.authors}</p>
+            <p className="paper-authors">{renderAuthorsWithBoldName(paper.authors)}</p>
             <p className="paper-venue">{paper.venue}</p>
             <p className="paper-status">{paper.status}</p>
             {paper.links && paper.links.length > 0 && (
