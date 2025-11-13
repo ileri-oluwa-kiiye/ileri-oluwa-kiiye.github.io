@@ -2,6 +2,16 @@ import { NewsSection } from "../../assets/styles";
 
 const newsItems = [
   {
+    id: 7,
+    date: "Nov 2025",
+    description: (
+      <>
+        We presented &quot;SharpXR: Structure-Aware Denoising for Pediatric Chest X-Rays&quot; as a poster at 
+        <a href="https://mirg2025-draft-agenda.my.canva.site/" target="_blank" rel="noopener noreferrer"> MIRG-ICAIR 2025</a>.
+      </>
+    ),
+  },
+  {
     id: 1,
     date: "Nov 2025",
     description: (
@@ -18,7 +28,7 @@ const newsItems = [
       <>
         I led Team Mamalens, and we were a finalist at the Data Science for Health Ideathon (in collaboration with the 
         <a href="https://deeplearningindaba.com/" target="_blank" rel="noopener noreferrer"> Deep Learning Indaba</a>). We also won the “most fun project” award!  
-        <a href="https://docs.google.com/presentation/d/17LVUDp3HcsDdlQ2ZxIaimRf1jW5snWvd-r6mWReY9Eo/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> Link to Slides.</a>
+        <a href="https://docs.google.com/presentation/d/17LVUDp3HcsDdlQ2ZxIaimRf1jW5snWvd-r6mWReY9Eo/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> [Slides]</a>
       </>
     ),
   },
@@ -38,8 +48,7 @@ const newsItems = [
     description: (
       <>
         Delivered a talk on &quot;Why Your Medical AI Model Might Not Work in Africa: A Python Guide to Measuring Bias&quot; at 
-        <a href="https://ng.pycon.org/" target="_blank" rel="noopener noreferrer"> PyCon Nigeria 2025</a>.  
-        <a href="https://docs.google.com/presentation/d/1FQYHi3cvTZKPZ8NSkW646vOLWlyKP7ZKYIKjU2yCRl4/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> Link to Slides.</a>
+        <a href="https://ng.pycon.org/" target="_blank" rel="noopener noreferrer"> PyCon Nigeria 2025</a>.   <a href="https://docs.google.com/presentation/d/1FQYHi3cvTZKPZ8NSkW646vOLWlyKP7ZKYIKjU2yCRl4/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> [Slides]</a>
       </>
     ),
   },
@@ -49,7 +58,7 @@ const newsItems = [
     description: (
       <>
         I have just been appointed as Co-Lead of the 
-        <a href="https://gdg.community.dev/gdg-on-campus-federal-university-of-agriculture-abeokuta-nigeria/" target="_blank" rel="noopener noreferrer"> Google Developer Groups FUNAAB</a>, after serving as ML Co-Lead for a year.{' '}
+        <a href="https://gdg.community.dev/gdg-on-campus-federal-university-of-agriculture-abeokuta-nigeria/" target="_blank" rel="noopener noreferrer"> Google Developer Groups FUNAAB</a>, after serving as ML Co-Lead in the previous year.{' '}
         <a href="https://chat.whatsapp.com/IHdzT3JF5B4IgNq4u6BNKU" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Join our community here!</a>
       </>
     )
@@ -79,9 +88,9 @@ const newsItems = [
     date: "Aug 2025",
     description: (
       <>
-        Won a Best Poster Award at the 
+        Won a <b>Best Poster Award</b> at the 
         <a href="https://deeplearningindaba.com/" target="_blank" rel="noopener noreferrer"> Deep Learning Indaba 2025</a> for  
-        &quot;Fairness-Aware Machine Learning for Social Bias Detection in Healthcare Research Datasets.&quot; which I presented as a collaborator. <a href="https://drive.google.com/file/d/1H2FJLdhIbC-CqsdtXp1H5R2d35ZRlnPq/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Link to Poster </a>
+        &quot;Fairness-Aware Machine Learning for Social Bias Detection in Healthcare Research Datasets.&quot; which I presented as a collaborator. <a href="https://drive.google.com/file/d/1H2FJLdhIbC-CqsdtXp1H5R2d35ZRlnPq/view?usp=sharing" target="_blank" rel="noopener noreferrer"> [Poster]</a>
       </>
     ),
   },
@@ -128,8 +137,7 @@ const newsItems = [
     date: "Sept 2024",
     description: (
       <>
-        Presented a poster on “Maternify” at the 
-        <a href="https://deeplearningindaba.com/" target="_blank" rel="noopener noreferrer">Deep Learning Indaba 2024</a> in Dakar, Senegal. Thank you to the DLI Committee for the full sponsorship.
+        Presented a poster on “Maternify” at the <a href="https://deeplearningindaba.com/" target="_blank" rel="noopener noreferrer">Deep Learning Indaba 2024</a> in Dakar, Senegal. Thank you to the DLI Committee for the full sponsorship.
       </>
     ),
   },
@@ -138,9 +146,8 @@ const newsItems = [
     date: "Sept 2024",
     description: (
       <>
-        I spoke at 
-        <a href="https://2024.djangocon.us/" target="_blank" rel="noopener noreferrer"> DjangoCon US 2024</a> on &quot;The Magic of Dependencies Installing Themselves,&quot; highlighting PEP 723 for reproducibility and 
-        efficiency. <a href="https://pretalx.com/djangocon-us-2024/talk/8TBXVX/" target="_blank" rel="noopener noreferrer">Link to my talk.</a>
+        I spoke at <a href="https://2024.djangocon.us/" target="_blank" rel="noopener noreferrer">DjangoCon US 2024</a> on &quot;The Magic of Dependencies Installing Themselves,&quot; highlighting PEP 723 for reproducibility and 
+        efficiency. <a href="https://pretalx.com/djangocon-us-2024/talk/8TBXVX/" target="_blank" rel="noopener noreferrer">[Talk]</a>
       </>
     ),
   },
@@ -177,8 +184,8 @@ const newsItems = [
     date: "Feb 2024",
     description: (
       <>
-        Received a $2,000 grant to attend 
-        <a href="https://us.pycon.org/2024/" target="_blank" rel="noopener noreferrer"> PyCon US 2024</a>, the largest annual convention for the Python programming language.
+        Received a $2,000 grant 
+        to attend  <a href="https://us.pycon.org/2024/" target="_blank" rel="noopener noreferrer"> PyCon US 2024</a>, the largest annual convention for the Python programming language.
       </>
     ),
   },
@@ -198,18 +205,18 @@ const News = () => {
   return (
     <NewsSection id="news">
       <h1 className="text-2xl font-semibold font-serif tracking-tight">News</h1>
-      <ul className="mt-4 space-y-3" role="list">
+      <div className="mt-4 space-y-3">
         {newsItems.map((item, index) => (
-          <li key={`${item.date}-${index}`} className="news-item flex items-start gap-3">
+          <div key={`${item.date}-${index}`} className="news-item flex items-start gap-3">
             <span className="date shrink-0 w-28 text-sm tracking-wide text-slate-600">
               {item.date}:
             </span>
             <span className="description flex-1 leading-relaxed">
               {item.description}
             </span>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     </NewsSection>
   );
 };
