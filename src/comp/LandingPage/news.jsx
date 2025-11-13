@@ -139,8 +139,8 @@ const newsItems = [
     description: (
       <>
         I spoke at 
-        <a href="https://2024.djangocon.us/" target="_blank" rel="noopener noreferrer"> DjangoCon US 2024</a> on &quot;The Magic of Dependencies Installing Themselves,&quot; highlighting PEP 723 for reproducibility and efficiency.  
-        <a href="https://pretalx.com/djangocon-us-2024/talk/8TBXVX/" target="_blank" rel="noopener noreferrer"> Link to my talk.</a>
+        <a href="https://2024.djangocon.us/" target="_blank" rel="noopener noreferrer"> DjangoCon US 2024</a> on &quot;The Magic of Dependencies Installing Themselves,&quot; highlighting PEP 723 for reproducibility and 
+        efficiency. <a href="https://pretalx.com/djangocon-us-2024/talk/8TBXVX/" target="_blank" rel="noopener noreferrer">Link to my talk.</a>
       </>
     ),
   },
@@ -178,7 +178,7 @@ const newsItems = [
     description: (
       <>
         Received a $2,000 grant to attend 
-        <a href="https://us.pycon.org/2024/" target="_blank" rel="noopener noreferrer">PyCon US 2024</a>, the largest annual convention for the Python programming language.
+        <a href="https://us.pycon.org/2024/" target="_blank" rel="noopener noreferrer"> PyCon US 2024</a>, the largest annual convention for the Python programming language.
       </>
     ),
   },
