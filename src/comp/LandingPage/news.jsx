@@ -6,8 +6,8 @@ const newsItems = [
     date: "Nov 2025",
     description: (
       <>
-        We presented &quot;SharpXR: Structure-Aware Denoising for Pediatric Chest X-Rays&quot; as a poster at 
-        <a href="https://mirg2025-draft-agenda.my.canva.site/" target="_blank" rel="noopener noreferrer"> MIRG-ICAIR 2025</a>.
+        We were invited to present &quot;SharpXR: Structure-Aware Denoising for Pediatric Chest X-Rays&quot; as a poster at 
+        <a href="https://icair.unilag.edu.ng/" target="_blank" rel="noopener noreferrer"> The International Conference on Artificial Intelligence and Robotics (ICAIR)</a>.
       </>
     ),
   },
