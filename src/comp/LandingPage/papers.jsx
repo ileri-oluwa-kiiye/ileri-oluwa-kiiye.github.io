@@ -6,7 +6,7 @@ const papers = [
     id: 2,
     title: "Domain-Adaptive Transformer for Data-Efficient Glioma Segmentation in Sub-Saharan MRI",
     authors: "Abolade, I., Udo, A., Ojo, A., Oyetunji, A., Ajigbotosho, H., Iorumbur, A., Raymond, C., & Adewole, M.",
-    venue: "ISBI, In review",
+    venue: "ISBI 2026, In review",
     year: "2025",
     links: [
       {
