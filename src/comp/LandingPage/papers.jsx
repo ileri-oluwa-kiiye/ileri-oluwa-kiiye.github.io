@@ -1,7 +1,14 @@
 import { PapersSection } from "../../assets/styles";
 
 const papers = [
-
+  {
+    id: 4,
+    title: "VAMAE: Vessel-Aware Masked Autoencoders for OCT-Angiography",
+    authors: "Abolade, I., Mireku, P., Chibundu, K., Ododo, P., Idoko, E., Omoigui, P., & Odelola, S.",
+    venue: "ICPR 2026, In review",
+    year: "2025",
+    links: []
+  },
   {
     id: 2,
     title: "Domain-Adaptive Transformer for Data-Efficient Glioma Segmentation in Sub-Saharan MRI",

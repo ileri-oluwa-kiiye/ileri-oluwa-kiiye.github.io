@@ -2,6 +2,22 @@ import { NewsSection } from "../../assets/styles";
 
 const newsItems = [
   {
+    id: 2,
+    date: "Dec 2025",
+    description: (
+      <>
+        I will be speaking on <em>Building Robust Medical Imaging AI for Low-Resource Settings</em> at ML Lagos 2025.{" "}
+        <a
+          href="https://youtu.be/DG2GbkIZL4Q?si=sUMpwVJAThfWghiV"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          [Talk Recording]
+        </a>.
+      </>
+    ),
+  },
+  {
     id: 7,
     date: "Nov 2025",
     description: (
