@@ -6,7 +6,7 @@ const newsItems = [
     date: "Dec 2025",
     description: (
       <>
-        I will be speaking on <em>Building Robust Medical Imaging AI for Low-Resource Settings</em> at ML Lagos 2025.{" "}
+        I was invited to speak on &quot;Building Robust Medical Imaging AI for Low-Resource Settings&quot; at ML Lagos 2025.{" "}
         <a
           href="https://youtu.be/DG2GbkIZL4Q?si=sUMpwVJAThfWghiV"
           target="_blank"
