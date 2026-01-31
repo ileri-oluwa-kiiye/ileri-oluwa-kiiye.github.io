@@ -2,6 +2,30 @@ import { NewsSection } from "../../assets/styles";
 
 const newsItems = [
   {
+    id: 20,
+    date: "Summer 2026",
+    description: (
+      <>
+        I will be spending the summer as a research intern at{" "}
+        <a
+          href="https://vilab.epfl.ch/zamir/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          VILAB, EPFL
+        </a>{" "}
+        under{" "}
+        <a
+          href="https://vilab.epfl.ch/zamir/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Prof. Amir Zamir
+        </a>.
+      </>
+    ),
+  },
+  {
     id: 2,
     date: "Dec 2025",
     description: (
