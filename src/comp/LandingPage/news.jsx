@@ -3,7 +3,7 @@ import { NewsSection } from "../../assets/styles";
 const newsItems = [
   {
     id: 20,
-    date: "Summer 2026",
+    date: "Jan 2026",
     description: (
       <>
         I will be spending the summer as a research intern at{" "}
