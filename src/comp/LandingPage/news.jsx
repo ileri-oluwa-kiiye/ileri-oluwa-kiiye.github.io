@@ -31,7 +31,7 @@ const newsItems = [
     date: "Jan 2026",
     description: (
       <>
-        I will be spending the summer as a research intern at{" "}
+        I will be spending the summer in Switzerland as a research intern at{" "}
         <a
           href="https://vilab.epfl.ch/zamir/"
           target="_blank"
