@@ -1,6 +1,31 @@
 import { NewsSection } from "../../assets/styles";
 
 const newsItems = [
+  // {
+  //   id: 21,
+  //   date: "March 2026",
+  //   description: (
+  //     <>
+  //       Our paper, &quot;Domain-Adaptive Transformer for Data-Efficient Glioma Segmentation in Sub-Saharan MRI&quot;, was accepted as an extended abstract at{" "}
+  //       <a
+  //         href="https://www.ismrm.org/26m/"
+  //         target="_blank"
+  //         rel="noopener noreferrer"
+  //       >
+  //         ISMRM
+  //       </a>. We will be presenting this work in South Africa in May 2026.
+  //     </>
+  //   ),
+  // },
+  {
+    id: 22,
+    date: "March 2026",
+    description: (
+      <>
+        I was invited to speak at ML Lagos as part of the International Women’s Day special session, &quot;Build, Deploy, Transform&quot;!
+      </>
+    ),
+  },
   {
     id: 20,
     date: "Jan 2026",

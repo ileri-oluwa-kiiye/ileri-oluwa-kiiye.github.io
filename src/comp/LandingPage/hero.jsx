@@ -9,10 +9,10 @@ const Hero = () => {
         <div className="hero-text">
           <div className="social-links">
             <a href="mailto:aboladeilerioluwakiiye@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
-            <a href="https://drive.google.com/file/d/1-MW3LPAhbAyleRJtqeTFdgmu6wrFmOmE/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
+            <a href="https://drive.google.com/file/d/1dvWlNG1kDCdDoC0BdBbE_-v9BN9OQIzV/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
             <a href="https://github.com/ileri-oluwa-kiiye" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/ilerioluwakiiye" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://twitter.com/llerioluwakiiye" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="https://medium.com/@ilerioluwakiiye" target="_blank" rel="noopener noreferrer">Medium</a>
           </div>
           
           <p>
