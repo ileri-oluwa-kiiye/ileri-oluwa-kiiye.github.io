@@ -5,7 +5,7 @@ const papers = [
     id: 4,
     title: "VAMAE: Vessel-Aware Masked Autoencoders for OCT-Angiography",
     authors: "Abolade, I., Mireku, P., Chibundu, K., Ododo, P., Idoko, E., Omoigui, P., & Odelola, S.",
-    venue: "ICPR 2026",
+    venue: "International Conference on Pattern Recognition (ICPR) 2026",
     year: "2026",
     links: []
   },
