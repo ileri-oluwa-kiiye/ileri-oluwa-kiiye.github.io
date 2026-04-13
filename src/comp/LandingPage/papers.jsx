@@ -7,7 +7,12 @@ const papers = [
     authors: "Abolade, I., Mireku, P., Chibundu, K., Ododo, P., Idoko, E., Omoigui, P., & Odelola, S.",
     venue: "International Conference on Pattern Recognition (ICPR) 2026",
     year: "2026",
-    links: []
+    links: [
+      {
+        text: "Preprint",
+        url: "https://arxiv.org/abs/2604.06583"
+      }
+    ]
   },
   {
     id: 2,
