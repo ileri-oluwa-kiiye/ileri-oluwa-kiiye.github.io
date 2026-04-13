@@ -1,22 +1,15 @@
 import { NewsSection } from "../../assets/styles";
 
 const newsItems = [
-  // {
-  //   id: 21,
-  //   date: "March 2026",
-  //   description: (
-  //     <>
-  //       Our paper, &quot;Domain-Adaptive Transformer for Data-Efficient Glioma Segmentation in Sub-Saharan MRI&quot;, was accepted as an extended abstract at{" "}
-  //       <a
-  //         href="https://www.ismrm.org/26m/"
-  //         target="_blank"
-  //         rel="noopener noreferrer"
-  //       >
-  //         ISMRM
-  //       </a>. We will be presenting this work in South Africa in May 2026.
-  //     </>
-  //   ),
-  // },
+  {
+    id: 23,
+    date: "April 2026",
+    description: (
+      <>
+        Our paper <a href="https://arxiv.org/abs/2604.06583" target="_blank" rel="noopener noreferrer">&quot;VAMAE: Vessel-Aware Masked Autoencoders for OCT-Angiography,&quot;</a> was accepted to the <a href="https://icpr2026.org/" target="_blank" rel="noopener noreferrer">International Conference on Pattern Recognition (ICPR) 2026</a>! We’ll be presenting in Lyon, France this August. Congratulations to the team!
+      </>
+    ),
+  },
   {
     id: 22,
     date: "March 2026",
