@@ -2,6 +2,15 @@ import { NewsSection } from "../../assets/styles";
 
 const newsItems = [
   {
+    id: 24,
+    date: "May 2026",
+    description: (
+      <>
+        I was invited to present my paper, &quot;SharpXR: Structure-Aware Denoising for Pediatric Chest X-Rays,&quot; at the AIMed Hack 2026 Live Session for the current cohort of SPARK Academy.
+      </>
+    ),
+  },
+  {
     id: 23,
     date: "April 2026",
     description: (
