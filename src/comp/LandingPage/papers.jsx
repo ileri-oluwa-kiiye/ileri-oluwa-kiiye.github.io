@@ -48,9 +48,13 @@ const papers = [
     year: "2025",
     links: [
       {
+        text: "Springer LNCS",
+        url: "https://link.springer.com/chapter/10.1007/978-3-032-13654-1_9"
+      },
+      {
         text: "Preprint",
         url: "https://arxiv.org/abs/2508.08518"
-      }
+      },
     ]
   }
 ];
