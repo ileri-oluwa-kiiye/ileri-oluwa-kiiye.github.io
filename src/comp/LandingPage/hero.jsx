@@ -16,16 +16,13 @@ const Hero = () => {
           </div>
           
           <p>
-            I am Ilerioluwakiiye Abolade, a final-year Mechatronics Engineering student at the 
-            Federal University of Agriculture, Abeokuta, Nigeria, and an independent researcher at 
-            <a href="https://mlcollective.org" target="_blank" rel="noopener noreferrer"> ML Collective</a>, 
-            an open science community for self-driven AI researchers. 
-            I was also recently a Research Fellow at 
+            I am Ilerioluwakiiye Abolade, a final-year Mechatronics Engineering student at FUNAAB, Nigeria. I am currently a Research Intern 
+            at <a href="https://vilab.epfl.ch/" target="_blank">VILAB, EPFL</a>, supervised by <a href="https://vilab.epfl.ch/zamir/" target="_blank"> Prof. Amir Zamir</a>, and an independent researcher at 
+            <a href="https://mlcollective.org" target="_blank" rel="noopener noreferrer"> ML Collective</a>.
+            Previously, I was a Research Fellow at 
             <a href="https://event.fourwaves.com/spark/pages" target="_blank" rel="noopener noreferrer"> SPARK Academy</a>, 
-             supervised by 
-             <a href="https://www.med.upenn.edu/globalhealth/maruf-adewole-phd.html" target="_blank" rel="noopener noreferrer"> Dr. Maruf Adewole </a> 
-             and 
-            <a href="https://www.mcgill.ca/neuro/udunna-anazodo-phd" target="_blank" rel="noopener noreferrer"> Prof. Udunna Anazodo</a>.
+             supervised 
+             by <a href="https://www.med.upenn.edu/globalhealth/maruf-adewole-phd.html" target="_blank" rel="noopener noreferrer">Dr. Maruf Adewole</a> and <a href="https://www.mcgill.ca/neuro/udunna-anazodo-phd" target="_blank" rel="noopener noreferrer">Prof. Udunna Anazodo</a>.
           </p>
 
           <p>
